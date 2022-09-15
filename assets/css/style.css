@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,16 +19,28 @@ header{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    font-weight: bold;
+    
     
 }
 
 h1{
-    color: red;
+    color:#e53170;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px;
 
+
+    
     
 }
 
+p{
+    padding: 30px;
+    font-family: 'Fredoka', sans-serif;
+    
+    
+}
 .columns{
 
     width: 80%;
@@ -44,7 +60,7 @@ h1{
 
 
 
-.cards img:first-child{
+.card img:first-child{
     
     height: 70px;
     float: left;
@@ -52,34 +68,38 @@ h1{
 }
 
 
-.cards :nth-child(2){
+.card div:nth-child(2){
     
     color: white;
     font-size: 10px;
-    padding: 5px;
+    font-family:'Fredoka One', cursive;
     padding-top: 10px;
     text-align: left;
+    padding-left: 10px;
+    padding: 5px;
 }
-.cards :nth-child(3){
+.card div:nth-child(3){
     
     color: white;
     font-size: 12px;
     padding: 3px;
     text-align: left;
+    font-family:'Fredoka One', cursive;
 }
   
     
 
-.cards :nth-child(4){
+.card div:nth-child(4){
     
-    color:lightblue;
-    font-size: 10px;
+    color:rgb(140, 204, 225);
+    font-size: 11px;
     padding: 4px;
     text-align: left;
+    font-family:'Fredoka One', cursive;
 }
 
 
-.cards{
+.card {
 
     width: 250px;
     float: left;
@@ -87,5 +107,5 @@ h1{
 
    
 
-}
+
 
